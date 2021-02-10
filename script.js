@@ -16,7 +16,7 @@ btn.addEventListener("click", () => {
 
         function create(x) {
           let col4 = document.createElement("div");
-          col4.setAttribute("class", "col-3");
+          col4.setAttribute("class", "col-md-3");
           let divcard = document.createElement("div");
           divcard.setAttribute("class", "card");
           divcard.style = "width=18rem";
